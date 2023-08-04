@@ -9,12 +9,9 @@ const App = () => {
   
   const filteredEmojis = emojiData.filter((emoji)=>(emoji.name.includes(search )));
   
-
   const handleSearchChange = (event)=>{
     setSearch(event.target.value);
   };
-  
-  
   
 
   return (
